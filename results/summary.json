@@ -1,0 +1,65 @@
+{
+ "all_pass": true,
+ "claims": [
+  {
+   "detail": "13 files import only the standard library (25 distinct modules); requirements.txt lists no packages",
+   "id": "V1",
+   "name": "deps",
+   "pass": true
+  },
+  {
+   "detail": "ownit: 88 functions, 134 callee questions; textwrap: 14 functions, 7 callee questions",
+   "id": "V2",
+   "name": "scans",
+   "pass": true
+  },
+  {
+   "detail": "seed 0 gives identical sha256 in-process and across hash seeds (ownit 7f262843e86a)",
+   "id": "V3",
+   "name": "determinism",
+   "pass": true
+  },
+  {
+   "detail": "100% of 549 snippets match the source lines (kinds: callee, chain, impact)",
+   "id": "V4",
+   "name": "evidence",
+   "pass": true
+  },
+  {
+   "detail": "ownit: 57 runtime edges, 0 violations, 0 contradicted of 198 questions; textwrap: 11 runtime edges, 0 violations, 0 contradicted of 13 questions",
+   "id": "V5",
+   "name": "trace",
+   "pass": true
+  },
+  {
+   "detail": "precision=1.0 recall=1.0 over 10 body mutations; 0 stale from formatting-only edits; rename orphaned 46.7% (reported)",
+   "id": "V6",
+   "name": "staleness",
+   "pass": true
+  },
+  {
+   "detail": "77 questions answered over HTTP; editing storage.load_tasks made exactly 40 go stale; card, source guard and error codes verified",
+   "id": "V7",
+   "name": "end-to-end",
+   "pass": true
+  },
+  {
+   "detail": "GET / has id=\"app\"; style.css, dashboard.js and quiz.js served with correct types; all 5 UI states present",
+   "id": "V8",
+   "name": "ui ships",
+   "pass": true
+  },
+  {
+   "detail": "5 modules, 24 functions, 1 class; questions callee=33, chain=20, impact=24",
+   "id": "V9",
+   "name": "demo repo",
+   "pass": true
+  },
+  {
+   "detail": "/api/proof equals results/summary.json (9 claims before this one, re-checked after the final write)",
+   "id": "V10",
+   "name": "proof endpoint",
+   "pass": true
+  }
+ ]
+}

@@ -1,0 +1,457 @@
+{
+ "format_only_stale": 0,
+ "mutations": [
+  {
+   "expected": [
+    "36109d348712",
+    "81557af4e3a5",
+    "9c22dbedb8b4",
+    "a9d710302c87",
+    "d31987cd3acf",
+    "d493b100ba7b",
+    "d8674cfceb6c",
+    "e497ab96ce46"
+   ],
+   "func": "calls.extract_body",
+   "kind": "body",
+   "measured": [
+    "36109d348712",
+    "81557af4e3a5",
+    "9c22dbedb8b4",
+    "a9d710302c87",
+    "d31987cd3acf",
+    "d493b100ba7b",
+    "d8674cfceb6c",
+    "e497ab96ce46"
+   ]
+  },
+  {
+   "expected": [
+    "18b2098b3e2d",
+    "21e9bbc88ea7",
+    "637bb5ba7150",
+    "7040238cad69",
+    "93ae7146e339",
+    "9da9c8fa9523",
+    "c1a3108b9907",
+    "cee0382b33ff",
+    "e2d53dad9b4f",
+    "eef655d1d8f8"
+   ],
+   "func": "server.Handler.do_GET",
+   "kind": "body",
+   "measured": [
+    "18b2098b3e2d",
+    "21e9bbc88ea7",
+    "637bb5ba7150",
+    "7040238cad69",
+    "93ae7146e339",
+    "9da9c8fa9523",
+    "c1a3108b9907",
+    "cee0382b33ff",
+    "e2d53dad9b4f",
+    "eef655d1d8f8"
+   ]
+  },
+  {
+   "expected": [
+    "07c7b24d5a9c",
+    "09bafeb30bc0",
+    "1330925b4f01",
+    "1387589cd85b",
+    "1648926e77ca",
+    "18abc4ebc33f",
+    "1beb24e8585c",
+    "1c9ef680819a",
+    "2bc2e3cf4d78",
+    "3d49bfe1946f",
+    "429c0c1b2541",
+    "512df3f64b75",
+    "519debaa8fe7",
+    "51ccb5a0d0d9",
+    "6605f45a9744",
+    "71880d1c72a2",
+    "7b2e052164e8",
+    "8b2d7e8f8af4",
+    "8ff749883bd3",
+    "96324a7bd204",
+    "a6719a89fe6e",
+    "a791fe62c3dc",
+    "af5cb40d2438",
+    "d1254520f6d0",
+    "d31987cd3acf",
+    "d493b100ba7b",
+    "d4d4dfc7c056",
+    "f166436d03d5",
+    "f3207b2396f5",
+    "f79d90147de3",
+    "f883b7a0f8f2"
+   ],
+   "func": "server.App._scan",
+   "kind": "body",
+   "measured": [
+    "07c7b24d5a9c",
+    "09bafeb30bc0",
+    "1330925b4f01",
+    "1387589cd85b",
+    "1648926e77ca",
+    "18abc4ebc33f",
+    "1beb24e8585c",
+    "1c9ef680819a",
+    "2bc2e3cf4d78",
+    "3d49bfe1946f",
+    "429c0c1b2541",
+    "512df3f64b75",
+    "519debaa8fe7",
+    "51ccb5a0d0d9",
+    "6605f45a9744",
+    "71880d1c72a2",
+    "7b2e052164e8",
+    "8b2d7e8f8af4",
+    "8ff749883bd3",
+    "96324a7bd204",
+    "a6719a89fe6e",
+    "a791fe62c3dc",
+    "af5cb40d2438",
+    "d1254520f6d0",
+    "d31987cd3acf",
+    "d493b100ba7b",
+    "d4d4dfc7c056",
+    "f166436d03d5",
+    "f3207b2396f5",
+    "f79d90147de3",
+    "f883b7a0f8f2"
+   ]
+  },
+  {
+   "expected": [
+    "09bafeb30bc0",
+    "0a471ff40b26",
+    "0bf47311e9cf",
+    "0cbe1866097e",
+    "0d44fdf66244",
+    "18abc4ebc33f",
+    "1ab9f26e2de5",
+    "1bb905b1809d",
+    "1cf6fa50fca3",
+    "3809903f8ad9",
+    "429c0c1b2541",
+    "48491c9eab31",
+    "4e043fda1c66",
+    "512df3f64b75",
+    "519debaa8fe7",
+    "57f3d45c9184",
+    "6605f45a9744",
+    "6bab339cd03e",
+    "71880d1c72a2",
+    "7b2e052164e8",
+    "80119d18050a",
+    "83b541c2afa9",
+    "8b2d7e8f8af4",
+    "914368947899",
+    "af5cb40d2438",
+    "d4d4dfc7c056",
+    "f883b7a0f8f2"
+   ],
+   "func": "questions._gen_impact",
+   "kind": "body",
+   "measured": [
+    "09bafeb30bc0",
+    "0a471ff40b26",
+    "0bf47311e9cf",
+    "0cbe1866097e",
+    "0d44fdf66244",
+    "18abc4ebc33f",
+    "1ab9f26e2de5",
+    "1bb905b1809d",
+    "1cf6fa50fca3",
+    "3809903f8ad9",
+    "429c0c1b2541",
+    "48491c9eab31",
+    "4e043fda1c66",
+    "512df3f64b75",
+    "519debaa8fe7",
+    "57f3d45c9184",
+    "6605f45a9744",
+    "6bab339cd03e",
+    "71880d1c72a2",
+    "7b2e052164e8",
+    "80119d18050a",
+    "83b541c2afa9",
+    "8b2d7e8f8af4",
+    "914368947899",
+    "af5cb40d2438",
+    "d4d4dfc7c056",
+    "f883b7a0f8f2"
+   ]
+  },
+  {
+   "expected": [
+    "12019be4acb4",
+    "1330925b4f01",
+    "21e9bbc88ea7"
+   ],
+   "func": "server.App.proof",
+   "kind": "body",
+   "measured": [
+    "12019be4acb4",
+    "1330925b4f01",
+    "21e9bbc88ea7"
+   ]
+  },
+  {
+   "expected": [
+    "36109d348712",
+    "6a9b6b2c81b7",
+    "81557af4e3a5",
+    "9c22dbedb8b4",
+    "b66a2fd3296c",
+    "e497ab96ce46",
+    "f166436d03d5"
+   ],
+   "func": "scan.fingerprint",
+   "kind": "body",
+   "measured": [
+    "36109d348712",
+    "6a9b6b2c81b7",
+    "81557af4e3a5",
+    "9c22dbedb8b4",
+    "b66a2fd3296c",
+    "e497ab96ce46",
+    "f166436d03d5"
+   ]
+  },
+  {
+   "expected": [
+    "21e9bbc88ea7",
+    "aea75eb9d91a",
+    "be11e33a8639",
+    "e2d53dad9b4f",
+    "ebaa4cca23e5"
+   ],
+   "func": "server.Handler._json",
+   "kind": "body",
+   "measured": [
+    "21e9bbc88ea7",
+    "aea75eb9d91a",
+    "be11e33a8639",
+    "e2d53dad9b4f",
+    "ebaa4cca23e5"
+   ]
+  },
+  {
+   "expected": [
+    "3809903f8ad9",
+    "42c7537ebfd9",
+    "48491c9eab31",
+    "512df3f64b75",
+    "abaa9b73423d",
+    "e6dd074662a9"
+   ],
+   "func": "graph.is_closed",
+   "kind": "body",
+   "measured": [
+    "3809903f8ad9",
+    "42c7537ebfd9",
+    "48491c9eab31",
+    "512df3f64b75",
+    "abaa9b73423d",
+    "e6dd074662a9"
+   ]
+  },
+  {
+   "expected": [
+    "0bf47311e9cf",
+    "0d44fdf66244",
+    "419496d53e46",
+    "58b5c0a1b106",
+    "85fbc80de24f",
+    "9e005ecef2a5",
+    "af5cb40d2438",
+    "c5e9a8083a6f",
+    "fa91b0dede92"
+   ],
+   "func": "questions._sha1",
+   "kind": "body",
+   "measured": [
+    "0bf47311e9cf",
+    "0d44fdf66244",
+    "419496d53e46",
+    "58b5c0a1b106",
+    "85fbc80de24f",
+    "9e005ecef2a5",
+    "af5cb40d2438",
+    "c5e9a8083a6f",
+    "fa91b0dede92"
+   ]
+  },
+  {
+   "expected": [
+    "429c0c1b2541",
+    "514f8f6e55c0",
+    "57f3d45c9184",
+    "7b2e052164e8",
+    "c5e9a8083a6f"
+   ],
+   "func": "graph.shortest_path",
+   "kind": "body",
+   "measured": [
+    "429c0c1b2541",
+    "514f8f6e55c0",
+    "57f3d45c9184",
+    "7b2e052164e8",
+    "c5e9a8083a6f"
+   ]
+  },
+  {
+   "expected": [
+    "12019be4acb4",
+    "519debaa8fe7",
+    "58b5c0a1b106",
+    "635b4e67571b",
+    "6605f45a9744",
+    "9a7d90f7c584",
+    "e497ab96ce46",
+    "ecbb2273a735",
+    "f4744a2b8255"
+   ],
+   "func": "questions._label",
+   "kind": "format",
+   "measured": []
+  },
+  {
+   "expected": [
+    "04496685eb7a",
+    "055a2f09e29f",
+    "0f3f394a4bff",
+    "12d63c49958f",
+    "1648926e77ca",
+    "18b2098b3e2d",
+    "1c9ef680819a",
+    "36109d348712",
+    "3d1875c0e203",
+    "419496d53e46",
+    "556934e9a34a",
+    "58b5c0a1b106",
+    "6400222d4410",
+    "67e5d29152fa",
+    "8ff749883bd3",
+    "93ae7146e339",
+    "a9b06af00d89",
+    "be8e7f751404",
+    "ca08e849e02e",
+    "d1254520f6d0",
+    "d4aff9d4e1a8",
+    "eef655d1d8f8",
+    "fa91b0dede92"
+   ],
+   "func": "state.classify",
+   "kind": "format",
+   "measured": []
+  },
+  {
+   "expected": [
+    "21e9bbc88ea7",
+    "228496fe3fba",
+    "be11e33a8639"
+   ],
+   "func": "server.Handler._send",
+   "kind": "format",
+   "measured": []
+  },
+  {
+   "expected": [
+    "09bafeb30bc0",
+    "0bf47311e9cf",
+    "27688c32a7c3",
+    "4e043fda1c66",
+    "8b2d7e8f8af4",
+    "a6719a89fe6e",
+    "cb6d9d4f733f",
+    "f166436d03d5",
+    "fa91b0dede92"
+   ],
+   "func": "graph.is_impact_safe",
+   "kind": "rename",
+   "measured": [
+    "27688c32a7c3",
+    "4e043fda1c66",
+    "8b2d7e8f8af4",
+    "cb6d9d4f733f"
+   ]
+  },
+  {
+   "expected": [
+    "18b2098b3e2d",
+    "21e9bbc88ea7",
+    "35316f21dd07",
+    "4879792e8bcc",
+    "637bb5ba7150",
+    "7040238cad69",
+    "93ae7146e339",
+    "9da9c8fa9523",
+    "aea75eb9d91a",
+    "c1a3108b9907",
+    "cee0382b33ff",
+    "e2d53dad9b4f",
+    "eef655d1d8f8"
+   ],
+   "func": "server.Handler._dispatch",
+   "kind": "rename",
+   "measured": [
+    "35316f21dd07",
+    "4879792e8bcc",
+    "637bb5ba7150",
+    "9da9c8fa9523",
+    "aea75eb9d91a"
+   ]
+  },
+  {
+   "expected": [
+    "09bafeb30bc0",
+    "18abc4ebc33f",
+    "24f5fae1da11",
+    "3809903f8ad9",
+    "3e0a2d0ba128",
+    "512df3f64b75",
+    "519debaa8fe7",
+    "6605f45a9744",
+    "71880d1c72a2",
+    "77f69f0d3a36",
+    "9e005ecef2a5",
+    "a36aac0dec0c",
+    "af5cb40d2438",
+    "b14b143ad3e2",
+    "c050af94841f",
+    "d1254520f6d0",
+    "d48b8a4c799a",
+    "d4d4dfc7c056",
+    "d9a09c362a09",
+    "e6dd074662a9",
+    "ec7312101cba",
+    "f3207b2396f5",
+    "f883b7a0f8f2"
+   ],
+   "func": "questions._gen_chain",
+   "kind": "rename",
+   "measured": [
+    "24f5fae1da11",
+    "3e0a2d0ba128",
+    "77f69f0d3a36",
+    "9e005ecef2a5",
+    "a36aac0dec0c",
+    "b14b143ad3e2",
+    "c050af94841f",
+    "d48b8a4c799a",
+    "d9a09c362a09",
+    "e6dd074662a9",
+    "ec7312101cba",
+    "f3207b2396f5"
+   ]
+  }
+ ],
+ "n": 10,
+ "precision": 1.0,
+ "recall": 1.0,
+ "rename_orphaned_pct": 46.7
+}
