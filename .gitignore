@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# OwnIt runtime state (per-target quiz progress)
+.ownit/
+
+# Local environment
+.env
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+node_modules/

@@ -1,0 +1,38 @@
+{
+ "ownit": {
+  "functions": 88,
+  "graph": {
+   "dynamic_functions": 1,
+   "external_calls": 640,
+   "functions": 88,
+   "resolved_calls": 206,
+   "skipped_files": 0,
+   "total_calls": 860,
+   "uncertain_calls": 14,
+   "uncertain_functions": 5
+  },
+  "questions": {
+   "callee": 134,
+   "chain": 7,
+   "impact": 64
+  }
+ },
+ "textwrap": {
+  "functions": 14,
+  "graph": {
+   "dynamic_functions": 0,
+   "external_calls": 66,
+   "functions": 14,
+   "resolved_calls": 10,
+   "skipped_files": 0,
+   "total_calls": 79,
+   "uncertain_calls": 3,
+   "uncertain_functions": 4
+  },
+  "questions": {
+   "callee": 7,
+   "chain": 2,
+   "impact": 6
+  }
+ }
+}

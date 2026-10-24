@@ -1,0 +1,13 @@
+{
+ "callee_questions": 7,
+ "contradicted_questions": 0,
+ "corpus": "textwrap",
+ "impact_questions": 6,
+ "observed_edges": 11,
+ "observed_in_static_pct": 72.7,
+ "static_edges": 10,
+ "unattributed": 0,
+ "unattributed_ratio": 0.0,
+ "violation_count": 0,
+ "violations": []
+}

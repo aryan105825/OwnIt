@@ -1,0 +1,14 @@
+{
+ "kinds_seen": [
+  "callee",
+  "chain",
+  "impact"
+ ],
+ "mismatched": 0,
+ "per_corpus": {
+  "ownit": 368,
+  "textwrap": 26,
+  "todo_agent": 155
+ },
+ "snippets": 549
+}
