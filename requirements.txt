@@ -1,0 +1,4 @@
+# OwnIt uses the Python standard library only (ast, http.server, hashlib, json, ...).
+# Required interpreter: Python >= 3.10 (pinned in pyproject.toml: requires-python = ">=3.10").
+# There are intentionally no third-party packages to pin or install.
+# scripts/verify.py (check V1) fails if any non-stdlib import appears in the code.

@@ -1,0 +1,8 @@
+[project]
+name = "ownit"
+version = "0.1.0"
+description = "Comprehension quizzes on your own AI-written Python repo, answered by the static call graph (no LLM)."
+readme = "README.md"
+requires-python = ">=3.10"
+# Python standard library only. Nothing to install; run with `python -m ownit.server PATH`.
+dependencies = []
