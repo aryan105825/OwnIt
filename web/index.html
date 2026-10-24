@@ -1,0 +1,37 @@
+<!--
+@exports: page shell with #app, #target, nav buttons [data-tab=dashboard|quiz|functions|proof] and the #view mount point
+@imports: /static/style.css, /static/dashboard.js, /static/quiz.js (served by ownit/server.py)
+@schema: dashboard.js defines window.OwnIt and boots on DOMContentLoaded; quiz.js must load after dashboard.js
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OwnIt</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="masthead">
+      <div class="brand">
+        <h1>OwnIt</h1>
+        <p class="tagline">Do you still understand the code your AI wrote?</p>
+      </div>
+      <p class="target" id="target" title="Folder being quizzed"></p>
+      <nav class="tabs" aria-label="Sections">
+        <button type="button" class="tab" data-tab="dashboard" aria-selected="true">Dashboard</button>
+        <button type="button" class="tab" data-tab="quiz" aria-selected="false">Quiz</button>
+        <button type="button" class="tab" data-tab="functions" aria-selected="false">Functions</button>
+        <button type="button" class="tab" data-tab="proof" aria-selected="false">Proof</button>
+      </nav>
+    </header>
+    <main id="view" aria-live="polite">
+      <noscript>OwnIt needs JavaScript to show quizzes. Enable it for this page and reload.</noscript>
+    </main>
+    <footer class="colophon">Answers come from the static call graph. No AI is involved in grading.</footer>
+  </div>
+  <script src="/static/dashboard.js"></script>
+  <script src="/static/quiz.js"></script>
+</body>
+</html>
